@@ -1,0 +1,137 @@
+*	c:
+	d:
+	cd C:\Program Files\Redis
+	dir 列出当前目录所有文件
+
+*	启动redis服务端
+	
+	1，cd 进入redis配置文件所在目录(配置文件放在安装目录)
+	2，redis-server redis.conf(配置文件名)
+	3，Creating Server TCP listening socket 127.0.0.1:6379 则启动成功
+	4，服务端不要关闭
+	   redis-cli
+	   127.0.0.1:6379>启动成功
+	   
+*	string类型
+	set key value
+	setex key second value
+	mset key value key value
+	
+	get key
+	mget key key key...
+	
+	incr key
+	decr key
+	incrby key value
+	decrby key value
+	
+	append key value
+	strlen key
+	
+*	key相关
+	type key
+	exists key  1 0
+	del key 1  0
+	expire key second
+	ttl key
+	keys 正则表达式写法
+	
+	
+*	hash
+	hset key  field value1
+	hmset key field value1 field value2...
+	
+	hget key  field
+	hmget key field field...
+	
+	hgetall key
+	hkeys key
+	hvals key
+	hlen key
+	
+	hexists key field
+	hdel key field
+	hstrlen key field
+	
+*	list 内容存储string  有序
+	lpush key value1  value2..
+	rpush key value1 value2..
+	lpop key 
+	rpop key
+	linsert key after|before orivalue value
+	lset key index value
+	lrange key startindex endindex
+	ltrim key startindex endindex
+	llen key
+	lindex key index
+	
+*	set不存储重复项
+	sadd key  value value 无序集合添加元素
+	smembers key
+	scard key
+	
+	sinter key1 key2
+	sdiff key1 key2
+	sunion key1 key2
+	
+	sismember key member
+	
+	zset 有序集合 根据权重来由大到小排序  不重复
+	zadd key score value 
+	zcount key  scoremin scoremax
+	zrange key startindex stopindex
+	zcard key
+	zscore key member
+	
+*   发布订阅
+	subscribe 频道名  频道名...
+	unsubscribe 频道名...
+	publish 频道名  message
+	
+	
+*	权限
+	config set requirepass 123456
+	config get requirepass
+	123456
+	
+	redis-cli -h  ip  -p 6379 -a 123456
+	
+*	python交互redis
+	1，安装redis包
+	2, 导入redis包
+	3，构造连接对象
+	4，操作数据库
+	
+作业：用户登录 
+
+     业务过程如下： 
+
+     输入用户名、密码 
+
+     密码加密 
+
+     判断redis 中是否记录了用户名，如果有则成功 
+
+     如果redis 中没有用户名，则到mysql中查询 
+	 
+	 如果mysql中有用户名则根据用户名取得mysql数据库中的密码，
+	 并且将密码和输入的密码对比，返回登录成功或者失败
+	如果mysql中没有用户名 ，输出登录失败
+	 
+     如果登录成功，将用户名记录到redis 中 
+	
+	VMware-workstation-full-14.1.1.28517.exe	
+	ubuntu-18.04.1-desktop-amd64.iso
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	

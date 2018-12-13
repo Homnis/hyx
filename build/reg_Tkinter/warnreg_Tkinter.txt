@@ -1,0 +1,17 @@
+missing module named resource - imported by posix, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named posix - imported by os, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named _posixsubprocess - imported by subprocess, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named 'org.python' - imported by pickle, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named _winreg - imported by platform, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named 'java.lang' - imported by platform, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named termios - imported by tty, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py, getpass
+missing module named grp - imported by shutil, tarfile, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py, netrc, getpass
+missing module named _dummy_threading - imported by dummy_threading, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
+missing module named org - imported by copy, E:\hyx\core\聊天软件的实现_v1.1\reg_Tkinter.py
